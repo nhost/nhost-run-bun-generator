@@ -1,0 +1,16 @@
+name = 'bun-generator'
+
+[image]
+image = 'nhost/bun-generator:0.0.2'
+
+[[ports]]
+port = 5000
+type = 'http'
+publish = true
+
+[resources]
+replicas = 1
+
+[resources.compute]
+cpu = 62
+memory = 128
