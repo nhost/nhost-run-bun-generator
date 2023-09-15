@@ -1,6 +1,6 @@
 import { createServer } from 'http';
 import { get } from 'https'; 
-import { createGunzip } from 'zlib'; // Assuming Bun supports Node.js zlib module
+import { createGunzip } from 'zlib'; 
 
 function getRandomInt(min, max) {
   min = Math.ceil(min);
