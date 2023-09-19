@@ -21,9 +21,9 @@ const server = createServer((req, res) => {
     };
 
     get(options, (apiRes) => {
-      let stream = apiRes.pipe(createGunzip());
-
+      const stream = apiRes.pipe(createGunzip());
       let data = '';
+
       stream.on('data', (chunk) => {
         data += chunk;
       });
