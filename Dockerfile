@@ -3,8 +3,8 @@ FROM oven/bun:latest
 
 WORKDIR /app
 
-COPY bun-generator.tsx ./
+COPY bun-generator.ts ./
 
 EXPOSE 5000
 
-CMD ["bun", "run", "bun-generator.tsx"]
+CMD ["bun", "run", "bun-generator.ts"]

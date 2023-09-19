@@ -1,7 +1,7 @@
 name = 'bun-generator'
 
 [image]
-image = 'nhost/bun-generator:0.0.2'
+image = 'nhost/bun-generator:0.0.3'
 
 [[ports]]
 port = 5000
